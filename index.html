@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <title>QR code Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="qrCode">
+       <p class="heading">Enter your text or URL</p>
+       <input class="inputBox" type="text" placeholder="Type here...">
+       <div class="qrImageWrap">
+        <!-- render QRcode here from Api -->
+        <img src="" id="qrImage">
+       </div>
+       <button class="qrBtn" onclick="generateQr()">Generate QR Code</button>
+    </div>    
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
